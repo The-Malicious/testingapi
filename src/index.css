@@ -1,1 +1,52 @@
-
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn {
+    background-color: #e6e6fa !important;
+    border: 1px solid lavender !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #734f96;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    border-color: #734f96 !important;
+    color: #734f96 !important;
+  }
+  
+  .delete_btn:hover {
+    color: red !important;
+    border-color: red !important;
+  }
+  
+  .modal {
+    backdrop-filter: blur(2px);
+    display: flex !important;
+    align-items: center;
+  }
+  
+  .modal-dialog {
+    width: 500px;
+    max-width: 60%;
+    max-height: 60vh;
+  }
+  
+  .modal-content {
+    width: 100% !important;
+  }
+  
+  input {
+    width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid lavender;
+    margin: 5px 0;
+    padding: 8px 20px;
+  }
+  
+  input:focus {
+    border-color: #734f96;
+  }

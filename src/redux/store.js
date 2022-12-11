@@ -1,8 +1,10 @@
-import {configureStore} from '@reduxjs/toolkit'
-import employeSlice from './employeSlice/employeSlice'
+import { configureStore } from '@reduxjs/toolkit'
+import deleteSlice from './delete/deleteSlice'
+import renderSlice from './render/renderSlice'
 
 export const store = configureStore({
-    reducer:{
-        employe : employeSlice
+    reducer: {
+        renderState: renderSlice,
+        allDelete: deleteSlice
     }
 })
